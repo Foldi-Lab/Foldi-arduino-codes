@@ -1,0 +1,63 @@
+1. For "Classic FED" Reversal menu - use "ClassicFED2_Claire_210817" ino file, with FED3_CF.cpp file in src folder 
+(only one cpp file can be called upon so cut and paste any other cpp files in the src folder to the desktop)
+
+Once you have downloaded ardunio and the FED3 library, the src folder is found in Documents > Arduino > libraries > FED3
+
+  // FEDmodes:
+  // 0 Free feeding
+  // 1 FR1
+  // 2 FR3
+  // 3 FR5
+  // 4 Progressive Ratio
+  // 5 Extinction
+  // 6 FR1 (reversed)
+  // 7 FR3 (reversed)
+  // 8 FR5 (reversed)
+  // 9 PR (reversed)
+
+(All programs run without tone)
+
+2. For Reversal Task menu - use "Reversal_Task_Menu_Claire_210817" ino file, with FED3_reversalmenu.cpp file in src folder
+
+  // FEDmodes:
+  // 0 FR1 reversed
+  // 1 FR1
+  // 2 Reversal Task (10 pellets to switch)
+  // 3 Orientation (FR1 both)
+
+(All programs run without tone)
+
+3. I've made a reversal task with 5 or 3 pellets to switch for Sarah - use the same reversalmenu.cpp file as above
+
+4. For ABA tasks, use "ClassicFED3_ABA" ino file, with FED3_ABA.cpp file in src folder
+
+  // FEDmodes:
+  // 0 Free Feeding
+  // 1 Timed free feeding
+  // 2 FR1
+  // 3 Progressive Ratio
+  // 4 FR1 (reversed)
+  // 5 Progressive Ratio (reversed)
+  // 6 Orientation (FR1 both)
+  // 7 Reversal Task
+
+5. Probablistic Reversal Task now has the same menu as Reversal Task, but need to use FED3_probrev.cpp file in src folder
+
+  // FEDmodes:
+  // 0 FR1 reversed
+  // 1 FR1
+  // 2 Probablistic Reversal Task
+  // 3 Orientation (FR1 both)
+
+6. Felicia task with free and timed feeding use FED3_felicia.cpp in src folder with "ClassicFED_Felicia" ino program
+
+  // FEDmodes:
+  // 0 Free feeding
+  // 1 Timed feeding
+  // 2 FR1
+  // 3 FR3
+  // 4 FR3
+  // 5 Extinction
+  // 6 FR1 (reversed)
+  // 7 FR3 (reversed)
+  // 8 FR5 (reversed)
